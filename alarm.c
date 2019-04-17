@@ -8,7 +8,7 @@ static int alarm_fired = 0;
 
 void ding(int sig)
 {
-    alarm_fired = 1;
+    alarm_fired = 2;
 }
 
 int main()
